@@ -18,7 +18,7 @@ export const ContentWritingCards = () => {
               </div>
               <div className="service-content long-heading">
                 <h3>
-                  <a className="" href="/Content writing/SubContentPage1.html">
+                  <a className="" href="/Content_Services">
                     Blog Writing
                   </a>
                 </h3>
@@ -27,7 +27,7 @@ export const ContentWritingCards = () => {
                   SEO, provide value to readers, and position the company as an
                   industry leader.
                 </p>
-                <a href="/Content writing/SubContentPage1.html">Check Now</a>
+                <a href="/Content_Services">Check Now</a>
               </div>
             </div>
           </div>
@@ -46,7 +46,7 @@ export const ContentWritingCards = () => {
               </div>
               <div className="service-content long-heading">
                 <h3>
-                  <a className="" href="/Content writing/SubContentPage1.html">
+                  <a className="" href="/Content_Services">
                     SEO Content Writing
                   </a>
                 </h3>
@@ -54,7 +54,7 @@ export const ContentWritingCards = () => {
                   Producing content optimized for search engines to improve
                   visibility and drive organic traffic to the website.
                 </p>
-                <a href="/Content writing/SubContentPage1.html">Check Now</a>
+                <a href="/Content_Services">Check Now</a>
               </div>
             </div>
           </div>
@@ -73,7 +73,7 @@ export const ContentWritingCards = () => {
               </div>
               <div className="service-content long-heading">
                 <h3>
-                  <a className="" href="/Content writing/SubContentPage1.html">
+                  <a className="" href="/Content_Services">
                     Copywriting for Advertising
                   </a>
                 </h3>
@@ -82,7 +82,7 @@ export const ContentWritingCards = () => {
                   ads, online ads, and commercials to compel action from the
                   target audience.
                 </p>
-                <a href="/Content writing/SubContentPage1.html">Check Now</a>
+                <a href="/Content_Services">Check Now</a>
               </div>
             </div>
           </div>
@@ -101,7 +101,7 @@ export const ContentWritingCards = () => {
               </div>
               <div className="service-content long-heading">
                 <h3>
-                  <a className="" href="/Content writing/SubContentPage2.html">
+                  <a className="" href="/Content_sub_Services">
                     Social Media Posts
                   </a>
                 </h3>
@@ -110,7 +110,7 @@ export const ContentWritingCards = () => {
                   such as LinkedIn, Instagram, and Twitter to engage with
                   followers and promote brand messaging.
                 </p>
-                <a href="/Content writing/SubContentPage2.html">Check Now</a>
+                <a href="/Content_sub_Services">Check Now</a>
               </div>
             </div>
           </div>
@@ -129,7 +129,7 @@ export const ContentWritingCards = () => {
               </div>
               <div className="service-content long-heading">
                 <h3>
-                  <a className="" href="/Content writing/SubContentPage2.html">
+                  <a className="" href="/Content_sub_Services">
                     Email Marketing Campaigns
                   </a>
                 </h3>
@@ -137,7 +137,7 @@ export const ContentWritingCards = () => {
                   Developing targeted email content for promotional campaigns or
                   regular newsletters to keep subscribers informed and engaged.
                 </p>
-                <a href="/Content writing/SubContentPage2.html">Check Now</a>
+                <a href="/Content_sub_Services">Check Now</a>
               </div>
             </div>
           </div>
@@ -156,7 +156,7 @@ export const ContentWritingCards = () => {
               </div>
               <div className="service-content long-heading">
                 <h3>
-                  <a className="" href="/Content writing/SubContentPage2.html">
+                  <a className="" href="/Content_sub_Services">
                     Technical Writing
                   </a>
                 </h3>
@@ -164,7 +164,7 @@ export const ContentWritingCards = () => {
                   Developing targeted email content for promotional campaigns or
                   regular newsletters to keep subscribers informed and engaged.
                 </p>
-                <a href="/Content writing/SubContentPage2.html">Check Now</a>
+                <a href="/Content_sub_Services">Check Now</a>
               </div>
             </div>
           </div>
@@ -183,7 +183,7 @@ export const ContentWritingCards = () => {
               </div>
               <div className="service-content long-heading">
                 <h3>
-                  <a className="" href="/Content writing/SubContentPage3.html">
+                  <a className="" href="/Content_sub_Services">
                     White Papers
                   </a>
                 </h3>
@@ -191,7 +191,7 @@ export const ContentWritingCards = () => {
                   Writing detailed and authoritative reports or guides on
                   particular topics that highlight expertise and generate leads.
                 </p>
-                <a href="/Content writing/SubContentPage3.html">Check Now</a>
+                <a href="/Content_sub_Services">Check Now</a>
               </div>
             </div>
           </div>
@@ -210,7 +210,7 @@ export const ContentWritingCards = () => {
               </div>
               <div className="service-content long-heading">
                 <h3>
-                  <a className="" href="/Content writing/SubContentPage3.html">
+                  <a className="" href="/Content_sub_Services">
                     Product Descriptions
                   </a>
                 </h3>
@@ -218,7 +218,7 @@ export const ContentWritingCards = () => {
                   Creating compelling and informative descriptions for
                   e-commerce websites to enhance product appeal and boost sales.
                 </p>
-                <a href="/Content writing/SubContentPage3.html">Check Now</a>
+                <a href="/Content_sub_Services">Check Now</a>
               </div>
             </div>
           </div>
@@ -237,7 +237,7 @@ export const ContentWritingCards = () => {
               </div>
               <div className="service-content long-heading">
                 <h3>
-                  <a className="" href="/Content writing/SubContentPage3.html">
+                  <a className="" href="/Content_sub_Services">
                     Ghostwriting
                   </a>
                 </h3>
@@ -245,7 +245,7 @@ export const ContentWritingCards = () => {
                   Writing content such as articles, speeches, or books on behalf
                   of another person, maintaining their voice and style.
                 </p>
-                <a href="/Content writing/SubContentPage3.html">Check Now</a>
+                <a href="/Content_sub_Services">Check Now</a>
               </div>
             </div>
           </div>
@@ -264,7 +264,7 @@ export const ContentWritingCards = () => {
               </div>
               <div className="service-content long-heading">
                 <h3>
-                  <a className="" href="/Content writing/SubContentPage3.html">
+                  <a className="" href="/Content_sub_Services">
                     Storytelling
                   </a>
                 </h3>
@@ -273,7 +273,7 @@ export const ContentWritingCards = () => {
                   to connect emotionally with the audience, often used in brand
                   campaigns and&nbsp;video&nbsp;scripts.
                 </p>
-                <a href="/Content writing/SubContentPage3.html">Check Now</a>
+                <a href="/Content_sub_Services">Check Now</a>
               </div>
             </div>
           </div>

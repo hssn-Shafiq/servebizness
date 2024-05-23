@@ -1,38 +1,29 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;500;600;700&display=swap");
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
-}
-
-body {
+.signin {
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
   width: 100%;
   padding: 0 10px;
-  
+  background: linear-gradient(#1e2330, #1d253a, #090e21);
 }
 
-body::before {
-  content: "";
+.signin .signin_logo{
   position: absolute;
-  width: 100%;
-  height: 100%;
-  /* background: url("/assets/images/coffee-1283672_1280.jpg"), #000; */
-  background-position: center;
-  background-size: cover;
+  top: 5%;
+  left: 5%;
+  img{
+    cursor: pointer;
+  }
 }
-
 .wrapper {
+  background: white;
   width: 400px;
   border-radius: 8px;
   padding: 30px;
   text-align: center;
   border: 1px solid rgba(136, 132, 132, 0.5);
+  filter: drop-shadow(2px 2px 5px rgba(220, 218, 218, 0.4));
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
 }
@@ -67,11 +58,11 @@ h2 {
 
 .input-field input {
   width: 100%;
-  height: 40px;
+  height: 30px;
   background: transparent;
   border: none;
   outline: none;
-  font-size: 16px;
+  font-size: 14px;
   color: black;
 }
 
@@ -86,7 +77,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 25px 0 35px 0;
+  /* margin: 25px 0 35px 0; */
   color: black;
 }
 
@@ -103,6 +94,9 @@ h2 {
   margin-left: 8px;
   margin-bottom: 0;
 }
+.forget a{
+  font-size: 13px;
+}
 
 .wrapper a {
   color: black;
@@ -113,7 +107,7 @@ h2 {
   text-decoration: underline;
 }
 
-button {
+.signin  button {
   background: rgb(29, 29, 186);
   color: white;
   font-weight: 600;
@@ -123,17 +117,17 @@ button {
   border-radius: 3px;
   font-size: 16px;
   border: 2px solid transparent;
-  transition: 0.3s ease;
+  transition: all 0.3s ease-in;
 }
 
-button:hover {
-  color: black;
-  border-color: #fff;
-  background: rgba(62, 62, 62, 0.443);
+.signin button:hover {
+  color: white;
+  background: rgb(0, 0, 0);
+  transform: scale(0.95);
 }
 
 .register {
-  text-align: center;
-  margin-top: 30px;
+  text-align: end;
+  margin-top: 10px;
   color: black;
 }

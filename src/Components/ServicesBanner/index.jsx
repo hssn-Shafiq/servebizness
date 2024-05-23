@@ -12,19 +12,19 @@ export const ServicesBanner = ({subtitle,title,desc,col_1_title,col_1_des,col_2_
           </p>
           <div className="row">
             <div className={className}>
-              <h4>{col_1_title}</h4>
+              <h5>{col_1_title}</h5>
               <p>
                 {col_1_des}
               </p>
             </div>
             <div className={className}>
-              <h4>{col_2_title}</h4>
+              <h5>{col_2_title}</h5>
               <p>
                 {col_2_desc}
               </p>
             </div>
             <div className={className}>
-              <h4>{col_3_title}</h4>
+              <h5>{col_3_title}</h5>
               <p>
                 {col_3_desc}
               </p>

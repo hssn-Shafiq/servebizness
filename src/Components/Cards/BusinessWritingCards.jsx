@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 export const BusinessWritingCards = () => {
 
@@ -20,7 +21,7 @@ export const BusinessWritingCards = () => {
                   <h3>
                     <a
                       className=""
-                      href="/Business_writing/SubBusinessPage1.html"
+                      href="Business_Services"
                     >
                       Business Plans
                     </a>
@@ -29,7 +30,7 @@ export const BusinessWritingCards = () => {
                     Crafting comprehensive plans that outline the business’s
                     strategy, financial forecasts, and market analysis.
                   </p>
-                  <a href="/Business_writing/SubBusinessPage1.html">Check Now</a>
+                  <Link to={"/Business_Services"}>Check Now</Link>
                 </div>
               </div>
             </div>
@@ -50,7 +51,7 @@ export const BusinessWritingCards = () => {
                   <h3>
                     <a
                       className=""
-                      href="/Business_writing/SubBusinessPage1.html"
+                      href="Business_sub_Services"
                     >
                       Grant Proposals
                     </a>
@@ -59,7 +60,7 @@ export const BusinessWritingCards = () => {
                     Writing proposals to secure funding from government entities,
                     foundations, and other organizations.
                   </p>
-                  <a href="/Business_writing/SubBusinessPage1.html">Check Now</a>
+                  <a href="Business_Services">Check Now</a>
                 </div>
               </div>
             </div>
@@ -80,7 +81,7 @@ export const BusinessWritingCards = () => {
                   <h3>
                     <a
                       className=""
-                      href="/Business_writing/SubBusinessPage1.html"
+                      href="Business_Services"
                     >
                       Annual Reports
                     </a>
@@ -89,7 +90,7 @@ export const BusinessWritingCards = () => {
                     Developing detailed annual reports that communicate business
                     achievements and financial status to stakeholders.
                   </p>
-                  <a href="/Business_writing/SubBusinessPage1.html">Check Now</a>
+                  <a href="Business_Services">Check Now</a>
                 </div>
               </div>
             </div>
@@ -110,7 +111,7 @@ export const BusinessWritingCards = () => {
                   <h3>
                     <a
                       className=""
-                      href="/Business_writing/SubBusinessPage2.html"
+                      href="Business_sub_Services"
                     >
                       Press Releases
                     </a>
@@ -119,7 +120,7 @@ export const BusinessWritingCards = () => {
                     Creating press releases to announce company news, product
                     launches, or changes in leadership, aimed at media outlets.
                   </p>
-                  <a href="/Business_writing/SubBusinessPage2.html">Check Now</a>
+                  <a href="Business_sub_Services">Check Now</a>
                 </div>
               </div>
             </div>
@@ -140,7 +141,7 @@ export const BusinessWritingCards = () => {
                   <h3>
                     <a
                       className=""
-                      href="/Business_writing/SubBusinessPage2.html"
+                      href="Business_sub_Services"
                     >
                       Newsletters
                     </a>
@@ -149,7 +150,7 @@ export const BusinessWritingCards = () => {
                     Producing engaging newsletters for internal staff updates or
                     external customer engagement.
                   </p>
-                  <a href="/Business_writing/SubBusinessPage2.html">Check Now</a>
+                  <a href="Business_sub_Services">Check Now</a>
                 </div>
               </div>
             </div>
@@ -170,7 +171,7 @@ export const BusinessWritingCards = () => {
                   <h3>
                     <a
                       className=""
-                      href="/Business_writing/SubBusinessPage2.html"
+                      href="Business_sub_Services"
                     >
                       Website Content
                     </a>
@@ -179,7 +180,7 @@ export const BusinessWritingCards = () => {
                     Writing or revamping content for websites, including landing
                     pages, about us sections, and product descriptions.
                   </p>
-                  <a href="/Business_writing/SubBusinessPage2.html">Check Now</a>
+                  <a href="Business_sub_Services">Check Now</a>
                 </div>
               </div>
             </div>

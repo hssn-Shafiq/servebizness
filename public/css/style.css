@@ -1411,3 +1411,77 @@ h1 {
   display: block;
 }
 
+/* ================== business pages ===================== */
+.content-solution .container .row .card {
+  border: none;
+    box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 1em;
+    background: #ece9e6;
+    /* /* background: linear-gradient(to right, #ffffff, #ece9e6); */
+}
+
+.content-solution .container .row .card .card-body i {
+  font-size: 50px;
+  color: #2d97c8;
+  margin-top: 23px;
+  margin-bottom: 23px;
+}
+.detail-section .text-section {
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 20px;
+}
+
+/* cards css */
+.content-solution .container .row .card .card-body .card-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.content-solution .container .row .card .card-body .card-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.content-solution .container .row .card img {
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+}
+.carasoual_style {
+  background-color: #1e2330;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px;
+  width: 31% !important;
+  flex-wrap: wrap;
+}
+@media (max-width: 768px) {
+  .carasoual_style {
+    width: fit-content !important;
+    display: flex;
+    flex-direction: column;
+  }
+}
+.carasoual_style h5 {
+  margin-top: 20px;
+  text-align: center;
+}
+.carasoual_style p {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.carousel-item{
+  transition: transform .6s ease-in-out !important;
+}

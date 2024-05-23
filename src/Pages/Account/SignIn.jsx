@@ -3,6 +3,10 @@ export const SignIn = () => {
   return (
     <>
       <main>
+        <div className="signin">
+          <div className="signin_logo">
+       <a href="/"> <img src="/images/Serve Biznes logo png.png" width={100} alt="" /></a>
+          </div>
         <div className="wrapper">
           <form action="#">
             <h2>Sign In</h2>
@@ -19,12 +23,12 @@ export const SignIn = () => {
                 <input type="checkbox" id="remember" />
                 <p>Remember me</p>
               </label>
-              <a href="#">Forgot password?</a>
+              <a href="#" className="text-primary">Forgot password?</a>
             </div>
-            <button type="submit">Sign In</button>
+            <button type="submit" className="mt-4">Sign In</button>
             <div className="register">
               <p>
-                Don't have an account? &nbsp; &nbsp;
+                Don't have an account?{" "}
                 <a href="/signup">
                   <b>Sign Up</b>
                 </a>
@@ -32,6 +36,8 @@ export const SignIn = () => {
             </div>
           </form>
         </div>
+        </div>
+        
       </main>
     </>
   );

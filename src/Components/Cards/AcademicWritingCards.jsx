@@ -21,7 +21,7 @@ export const AcademicWritingCards = () => {
                 <h3>
                   <a
                     className=""
-                    href="/Academic Writing/SubAcademicPage1.html"
+                    href="/Academic_Services"
                   >
                     Essay Writing
                   </a>
@@ -30,7 +30,7 @@ export const AcademicWritingCards = () => {
                   Crafting custom essays on a variety of topics and across
                   different academic levels.
                 </p>
-                <a href="/Academic Writing/SubAcademicPage1.html">Check Now</a>
+                <a href="/Academic_Services">Check Now</a>
               </div>
             </div>
           </div>
@@ -51,7 +51,7 @@ export const AcademicWritingCards = () => {
                 <h3>
                   <a
                     className=""
-                    href="/Academic Writing/SubAcademicPage1.html"
+                    href="/Academic_Services"
                   >
                     Research Papers
                   </a>
@@ -61,7 +61,7 @@ export const AcademicWritingCards = () => {
                   critical analysis, and synthesis of information related to a
                   specific topic.
                 </p>
-                <a href="/Academic Writing/SubAcademicPage1.html">Check Now</a>
+                <a href="/Academic_Services">Check Now</a>
               </div>
             </div>
           </div>
@@ -82,7 +82,7 @@ export const AcademicWritingCards = () => {
                 <h3>
                   <a
                     className=""
-                    href="/Academic Writing/SubAcademicPage1.html"
+                    href="/Academic_Services"
                   >
                     Thesis Writing
                   </a>
@@ -92,7 +92,7 @@ export const AcademicWritingCards = () => {
                   undergraduate and postgraduate students, including proposal
                   development and literature review.
                 </p>
-                <a href="/Academic Writing/SubAcademicPage1.html">Check Now</a>
+                <a href="/Academic_Services">Check Now</a>
               </div>
             </div>
           </div>
@@ -113,7 +113,7 @@ export const AcademicWritingCards = () => {
                 <h3>
                   <a
                     className=""
-                    href="/Academic Writing/SubAcademicPage2.html"
+                    href="/Academic_Services"
                   >
                     Dissertation Writing
                   </a>
@@ -123,7 +123,7 @@ export const AcademicWritingCards = () => {
                   undergraduate and postgraduate students, including proposal
                   development and literature review.
                 </p>
-                <a href="/Academic Writing/SubAcademicPage2.html">Check Now</a>
+                <a href="/Academic_Services">Check Now</a>
               </div>
             </div>
           </div>
@@ -144,7 +144,7 @@ export const AcademicWritingCards = () => {
                 <h3>
                   <a
                     className=""
-                    href="/Academic Writing/SubAcademicPage2.html"
+                    href="/Academic_Services"
                   >
                     Case Studies
                   </a>
@@ -154,7 +154,7 @@ export const AcademicWritingCards = () => {
                   within a real-world context, often used in business and law
                   schools.
                 </p>
-                <a href="/Academic Writing/SubAcademicPage2.html">Check Now</a>
+                <a href="/Academic_Services">Check Now</a>
               </div>
             </div>
           </div>
@@ -206,7 +206,7 @@ export const AcademicWritingCards = () => {
                 <h3>
                   <a
                     className=""
-                    href="/Academic Writing/SubAcademicPage3.html"
+                    href="/Academic_Services"
                   >
                     Annotated Bibliographies
                   </a>
@@ -236,7 +236,7 @@ export const AcademicWritingCards = () => {
                 <h3>
                   <a
                     className=""
-                    href="/Academic Writing/SubAcademicPage3.html"
+                    href="/Academic_Services"
                   >
                     Book Reviews
                   </a>
@@ -245,7 +245,7 @@ export const AcademicWritingCards = () => {
                   Writing critical assessments of published books, often
                   required in literature and social sciences courses.
                 </p>
-                <a href="/Academic Writing/SubAcademicPage3.html">Check Now</a>
+                <a href="/Academic_Services">Check Now</a>
               </div>
             </div>
           </div>
@@ -266,7 +266,7 @@ export const AcademicWritingCards = () => {
                 <h3>
                   <a
                     className=""
-                    href="/Academic Writing/SubAcademicPage3.html"
+                    href="/Academic_Services"
                   >
                     Lab Reports
                   </a>
@@ -275,7 +275,7 @@ export const AcademicWritingCards = () => {
                   Documenting experiments and providing a comprehensive analysis
                   of results, commonly required in science courses.
                 </p>
-                <a href="/Academic Writing/SubAcademicPage3.html">Check Now</a>
+                <a href="/Academic_Services">Check Now</a>
               </div>
             </div>
           </div>
@@ -296,7 +296,7 @@ export const AcademicWritingCards = () => {
                 <h3>
                   <a
                     className=""
-                    href="/Academic Writing/SubAcademicPage3.html"
+                    href="/Academic_Services"
                   >
                     Presentation or Speech Writing
                   </a>
@@ -306,7 +306,7 @@ export const AcademicWritingCards = () => {
                   accompanied by PowerPoint slides, suitable for academic
                   conferences or class&nbsp;presentations.
                 </p>
-                <a href="/Academic Writing/SubAcademicPage3.html">Check Now</a>
+                <a href="/Academic_Services">Check Now</a>
               </div>
             </div>
           </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Outlet } from "react-router-dom";
 import { Header } from "../../Components/Header";
 import { IntroText } from "../../Components/IntroText";
 import { ServicesBanner } from "../../Components/ServicesBanner";
@@ -60,8 +61,9 @@ export const BusinessWriting = () => {
         <Testimonials />
         <FAQ />
       </main>
-
+      
       <Footer />
+      <Outlet />
     </>
   );
 };

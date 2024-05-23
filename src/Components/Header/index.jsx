@@ -50,7 +50,7 @@ export const Header = () => {
               </button>
             </a>
             <div className="dropdown-content">
-              <a href="/BusinessWriting">
+              <a href="/Business_Writing">
                 Business Writing
               </a>
               <a href="ContentWriting">Content Writing</a>
