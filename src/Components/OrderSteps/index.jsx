@@ -1,4 +1,4 @@
-
+import AOSInitializer from "../../AOSInitializer"
 
 export const OrderSteps = ({imgUrl}) => {
 
@@ -6,7 +6,7 @@ export const OrderSteps = ({imgUrl}) => {
         <>
            <div className="container container-wide-range overflow-hidden container-services mb-5 mt-5">
           <div className="row">
-            <div className="col-lg-6 text-end">
+            <div className="col-lg-6 text-end" data-aos="fade-up">
               <img
                 src={imgUrl}
                 alt="Trailor writing"
@@ -15,7 +15,7 @@ export const OrderSteps = ({imgUrl}) => {
               />
             </div>
             <div className="col-lg-6 px-4 mt-2 ">
-              <div className="row d-flex justify-content-center">
+              <div className="row d-flex justify-content-center" data-aos="fade-right">
                 <div className="col-lg-1 fs-3 text-dark">
                   <i className="fa-solid fa-cube" />
                 </div>
@@ -27,7 +27,7 @@ export const OrderSteps = ({imgUrl}) => {
                   </p>
                 </div>
               </div>
-              <div className="row d-flex justify-content-center">
+              <div className="row d-flex justify-content-center" data-aos="fade-right">
                 <div className="col-lg-1 fs-3 text-dark">
                   <i className="fa-solid fa-cube" />
                 </div>
@@ -39,7 +39,7 @@ export const OrderSteps = ({imgUrl}) => {
                   </p>
                 </div>
               </div>
-              <div className="row d-flex justify-content-center">
+              <div className="row d-flex justify-content-center" data-aos="fade-right">
                 <div className="col-lg-1 fs-3 text-dark">
                   <i className="fa-solid fa-cube" />
                 </div>
@@ -59,7 +59,7 @@ export const OrderSteps = ({imgUrl}) => {
             </div>
           </div>
           <div className="row py-5 text-center">
-            <div className="col-lg-4">
+            <div className="col-lg-4" data-aos="fade-up">
               <div className="card mt-3">
                 <img
                   className="card-img-top"
@@ -72,7 +72,7 @@ export const OrderSteps = ({imgUrl}) => {
                 <p>Discuss your academic requirements and our solutions.</p>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4" data-aos="fade-up">
               <div className="card mt-3">
                 <img
                   className="card-img-top"
@@ -85,7 +85,7 @@ export const OrderSteps = ({imgUrl}) => {
                 <p>Place your order and relax while we work.</p>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4" data-aos="fade-up">
               <div className="card mt-3">
                 <img
                   className="card-img-top"

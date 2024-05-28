@@ -20,7 +20,7 @@
     
   }
 .banner-section .image-section{
-    background-image: url("/assets/images/writing\ image.jpg");
+    background-image: url("../images/writing image.jpg");
     background-color: rgba(0, 0, 0, 0.525);
     background-blend-mode: multiply;
     height: 500px;

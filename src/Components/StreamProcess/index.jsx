@@ -1,3 +1,5 @@
+import AOSInitializer from "../../AOSInitializer";
+
 export const StreamProcess = () => {
   return (
     <>
@@ -18,7 +20,7 @@ export const StreamProcess = () => {
             <p>efficient experience.</p>
           </div>
           <div className="row">
-            <div className="col-lg-6 p-3 text-start">
+            <div className="col-lg-6 p-3 text-start" data-aos="zoom-in-up">
               <div className="row d-flex justify-content-center">
                 <div className="col-lg-1 fs-3 text-dark">
                   <i className="fa-solid fa-cube" />
@@ -56,7 +58,7 @@ export const StreamProcess = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6" data-aos="zoom-in-right">
               <img
                 src="/images/business banner.jpg"
                 alt="business banner"

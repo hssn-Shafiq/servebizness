@@ -6,7 +6,7 @@ import { IntroText } from "../../Components/IntroText"
 import { OrderSteps } from "../../Components/OrderSteps"
 import { ServicesBanner } from "../../Components/ServicesBanner"
 import Testimonials from "../../Components/Testimonials"
-
+import AOSInitializer from "../../AOSInitializer"
 
 export const AcademicWriting = () => {
 
@@ -29,7 +29,7 @@ export const AcademicWriting = () => {
         col_2_desc="We guarantee on-time delivery, allowing you to publish your content without any delays."
         imgUrl="/images/academic6.jpg"
         />
-        <div className="text-heading p-4 text-center">
+        <div className="text-heading p-4 text-center" data-aos="zoom-in" >
           <p>Welcome to our services:</p>
           <h1>Wide Range of Academic Writing Services</h1>
           <p className="">

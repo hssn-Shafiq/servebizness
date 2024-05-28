@@ -7,12 +7,18 @@ import { Header } from "../../Components/Header";
 import { ServicesBanner } from "../../Components/ServicesBanner";
 import { ServicesImageBanner } from "../../Components/ServicesImageBanner";
 import Testimonials from "../../Components/Testimonials";
+// import { ToastContainer, toast } from "react-toastify";
 
 export const AcademicServices1 = () => {
+    const handleContextMenu = (event) => {
+        event.preventDefault();
+      };
   return (
     <>
-      <Header />
-      <main>
+    <div onContextMenu={handleContextMenu}>
+    {/* <ToastContainer /> */}
+    <Header />
+      <main >
         <ServicesImageBanner
           subtitle="Quality"
           title="Academic Writing"
@@ -24,7 +30,7 @@ export const AcademicServices1 = () => {
          */}
         <div className="info-section overflow-hidden mt-5">
           <div className="text-section text-center ">
-            <h2>Business Writing Services</h2>
+            <h2>Academic Writing Services</h2>
           </div>
         </div>
 
@@ -46,7 +52,7 @@ export const AcademicServices1 = () => {
         <div className="container-services p-5 mt-4">
           <div className="row">
             <div className="col-lg-6">
-              <img src="/images/academic1.jpg" alt="Image" width="580px" />
+              <img src="/images/academic1.jpg" alt="Professional Research Paper Services" width="580px" />
             </div>
             <div className="col-lg-6">
               {/* <p>Reliable</p> */}
@@ -168,6 +174,9 @@ export const AcademicServices1 = () => {
         <FAQ />
       </main>
       <Footer />
+
+    </div>
+     
     </>
   );
 };

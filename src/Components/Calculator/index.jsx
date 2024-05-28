@@ -1,7 +1,8 @@
 export const Calculator = () => {
   return (
     <>
-      <div className="side-bar">
+    <div className="d-flex flex-column">
+    <div className="side-bar">
         <h1 className="side-head">Online Assignment Help</h1>
         <p className="side-subhead">Buy Assignment Writing Help Online</p>
         <form
@@ -1479,6 +1480,9 @@ export const Calculator = () => {
           </button>
         </form>
       </div>
+        
+    </div>
+     
     </>
   );
 };

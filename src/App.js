@@ -1,8 +1,11 @@
-import Routes from "./Routes"
+import AOSInitializer from "./AOSInitializer";
+import Routes from "./Routes";
 function App() {
   return (
-    <div >
-      <Routes />
+    <div>
+      <AOSInitializer>
+        <Routes />
+      </AOSInitializer>
     </div>
   );
 }

@@ -1,12 +1,14 @@
-
+// src/components/AcademicWritingCards/AcademicWritingCards.js
+import React from 'react';
+import AOSInitializer from '../../AOSInitializer';
 
 export const AcademicWritingCards = () => {
-
-    return (
-        
+  return (
+    <>
+      <AOSInitializer />
       <div className="row">
         {/* card 01 */}
-        <div className="col-lg-4 col-md-6 col-sm-12 text-start p-1">
+        <div className="col-lg-4 col-md-6 col-sm-12 text-start p-1" data-aos="flip-left">
           <div className="service-item service-dianuj">
             <div className="service-single">
               <div className="service-img">
@@ -19,10 +21,7 @@ export const AcademicWritingCards = () => {
               </div>
               <div className="service-content long-heading">
                 <h3>
-                  <a
-                    className=""
-                    href="/Academic_Services"
-                  >
+                  <a className="" href="/Academic_Services">
                     Essay Writing
                   </a>
                 </h3>
@@ -36,7 +35,7 @@ export const AcademicWritingCards = () => {
           </div>
         </div>
         {/* card 02 */}
-        <div className="col-lg-4 col-md-6 col-sm-12 text-start p-1">
+        <div className="col-lg-4 col-md-6 col-sm-12 text-start p-1" data-aos="flip-right">
           <div className="service-item service-dianuj">
             <div className="service-single">
               <div className="service-img">
@@ -49,10 +48,7 @@ export const AcademicWritingCards = () => {
               </div>
               <div className="service-content long-heading">
                 <h3>
-                  <a
-                    className=""
-                    href="/Academic_Services"
-                  >
+                  <a className="" href="/Academic_Services">
                     Research Papers
                   </a>
                 </h3>
@@ -67,7 +63,7 @@ export const AcademicWritingCards = () => {
           </div>
         </div>
         {/* card 03 */}
-        <div className="col-lg-4 col-md-6 col-sm-12 text-start p-1">
+        <div className="col-lg-4 col-md-6 col-sm-12 text-start p-1" data-aos="flip-left">
           <div className="service-item service-dianuj">
             <div className="service-single">
               <div className="service-img">
@@ -80,10 +76,7 @@ export const AcademicWritingCards = () => {
               </div>
               <div className="service-content long-heading">
                 <h3>
-                  <a
-                    className=""
-                    href="/Academic_Services"
-                  >
+                  <a className="" href="/Academic_Services">
                     Thesis Writing
                   </a>
                 </h3>
@@ -98,7 +91,7 @@ export const AcademicWritingCards = () => {
           </div>
         </div>
         {/* card 04 */}
-        <div className="col-lg-4 col-md-6 col-sm-12 text-start p-1">
+        <div className="col-lg-4 col-md-6 col-sm-12 text-start p-1" data-aos="flip-right">
           <div className="service-item service-dianuj">
             <div className="service-single">
               <div className="service-img">
@@ -111,10 +104,7 @@ export const AcademicWritingCards = () => {
               </div>
               <div className="service-content long-heading">
                 <h3>
-                  <a
-                    className=""
-                    href="/Academic_Services"
-                  >
+                  <a className="" href="/Academic_Services">
                     Dissertation Writing
                   </a>
                 </h3>
@@ -129,7 +119,7 @@ export const AcademicWritingCards = () => {
           </div>
         </div>
         {/* card 05 */}
-        <div className="col-lg-4 col-md-6 col-sm-12 text-start p-1">
+        <div className="col-lg-4 col-md-6 col-sm-12 text-start p-1" data-aos="flip-left">
           <div className="service-item service-dianuj">
             <div className="service-single">
               <div className="service-img">
@@ -142,10 +132,7 @@ export const AcademicWritingCards = () => {
               </div>
               <div className="service-content long-heading">
                 <h3>
-                  <a
-                    className=""
-                    href="/Academic_Services"
-                  >
+                  <a className="" href="/Academic_Services">
                     Case Studies
                   </a>
                 </h3>
@@ -160,7 +147,7 @@ export const AcademicWritingCards = () => {
           </div>
         </div>
         {/* card 06 */}
-        <div className="col-lg-4 col-md-6 col-sm-12 text-start p-1">
+        <div className="col-lg-4 col-md-6 col-sm-12 text-start p-1" data-aos="flip-right">
           <div className="service-item service-dianuj">
             <div className="service-single">
               <div className="service-img">
@@ -173,10 +160,7 @@ export const AcademicWritingCards = () => {
               </div>
               <div className="service-content long-heading">
                 <h3>
-                  <a
-                    className=""
-                    href="/Academic Writing//SubAcademicPage2.html"
-                  >
+                  <a className="" href="/Academic Writing//SubAcademicPage2.html">
                     Term Papers
                   </a>
                 </h3>
@@ -191,7 +175,7 @@ export const AcademicWritingCards = () => {
           </div>
         </div>
         {/* card 07 */}
-        <div className="col-lg-4 col-md-6 col-sm-12 text-start p-1">
+        <div className="col-lg-4 col-md-6 col-sm-12 text-start p-1" data-aos="flip-left">
           <div className="service-item service-dianuj">
             <div className="service-single">
               <div className="service-img">
@@ -204,10 +188,7 @@ export const AcademicWritingCards = () => {
               </div>
               <div className="service-content long-heading">
                 <h3>
-                  <a
-                    className=""
-                    href="/Academic_Services"
-                  >
+                  <a className="" href="/Academic_Services">
                     Annotated Bibliographies
                   </a>
                 </h3>
@@ -221,7 +202,7 @@ export const AcademicWritingCards = () => {
           </div>
         </div>
         {/* card 08 */}
-        <div className="col-lg-4 col-md-6 col-sm-12 text-start p-1">
+        <div className="col-lg-4 col-md-6 col-sm-12 text-start p-1" data-aos="flip-right">
           <div className="service-item service-dianuj">
             <div className="service-single">
               <div className="service-img">
@@ -234,10 +215,7 @@ export const AcademicWritingCards = () => {
               </div>
               <div className="service-content long-heading">
                 <h3>
-                  <a
-                    className=""
-                    href="/Academic_Services"
-                  >
+                  <a className="" href="/Academic_Services">
                     Book Reviews
                   </a>
                 </h3>
@@ -251,7 +229,7 @@ export const AcademicWritingCards = () => {
           </div>
         </div>
         {/* card 09 */}
-        <div className="col-lg-4 col-md-6 col-sm-12 text-start p-1">
+        <div className="col-lg-4 col-md-6 col-sm-12 text-start p-1" data-aos="flip-left">
           <div className="service-item service-dianuj">
             <div className="service-single">
               <div className="service-img">
@@ -264,10 +242,7 @@ export const AcademicWritingCards = () => {
               </div>
               <div className="service-content long-heading">
                 <h3>
-                  <a
-                    className=""
-                    href="/Academic_Services"
-                  >
+                  <a className="" href="/Academic_Services">
                     Lab Reports
                   </a>
                 </h3>
@@ -281,7 +256,7 @@ export const AcademicWritingCards = () => {
           </div>
         </div>
         {/* card 10 */}
-        <div className="col-lg-4 col-md-6 col-sm-12 text-start p-1">
+        <div className="col-lg-4 col-md-6 col-sm-12 text-start p-1" data-aos="flip-right">
           <div className="service-item service-dianuj">
             <div className="service-single">
               <div className="service-img">
@@ -294,17 +269,14 @@ export const AcademicWritingCards = () => {
               </div>
               <div className="service-content long-heading">
                 <h3>
-                  <a
-                    className=""
-                    href="/Academic_Services"
-                  >
-                    Presentation or Speech Writing
+                  <a className="" href="/Academic_Services">
+                    Article Critiques
                   </a>
                 </h3>
                 <p>
-                  Developing content for oral presentations or speeches, often
-                  accompanied by PowerPoint slides, suitable for academic
-                  conferences or class&nbsp;presentations.
+                  Critically evaluating journal articles and providing a
+                  detailed assessment of the content, methodology, and
+                  significance of the work.
                 </p>
                 <a href="/Academic_Services">Check Now</a>
               </div>
@@ -312,5 +284,8 @@ export const AcademicWritingCards = () => {
           </div>
         </div>
       </div>
-    )
-}
+    </>
+  );
+};
+
+export default AcademicWritingCards;

@@ -13,7 +13,9 @@ import { FAQ } from "../../Components/FAQ";
 import { Footer } from "../../Components/Footer";
 import { ServicesCollapsed } from "../../Components/ServicesCollapsed";
 import { Contact } from "../../Components/Contact";
-
+import AOSInitializer from "../../AOSInitializer";
+import ServicesAnimation from "../../services.json"
+import Lottie from "lottie-react";
 export const Home = () => {
   return (
     <>
@@ -27,20 +29,21 @@ export const Home = () => {
       />
         <div className="container-main px-5">
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6" data-aos="fade-left">
               <div className="container-image overflow-hidden mt-5">
-                <img
+                {/* <img
                   src="/images/content5.jpg"
                   alt="Serve Biznes about services "
                   height="800px"
                   width="550px"
                   className="text-center"
-                />
+                /> */}
+              <Lottie animationData={ServicesAnimation} />
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6" data-aos="fade-right">
             <h1 className="text-center">Pick the best plan for you</h1>
-        <div className="form-section d-flex align-items-center justify-content-center mt-4">
+        <div className="form-section d-flex align-items-center justify-content-center mt-4" data-aos="fade-up">
           <Calculator />
         </div>
             </div>
@@ -68,7 +71,7 @@ export const Home = () => {
         <GetStarted />
         <div className="project-showcase overflow-hidden">
           <div className="row p-5">
-            <div className="col-lg-4">
+            <div className="col-lg-4" data-aos="zoom-in-up">
               <div className="card">
                 <img
                   className="card-img-top"
@@ -77,7 +80,7 @@ export const Home = () => {
                 />
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4" data-aos="zoom-in-up">
               <div className="card">
                 <img
                   className="card-img-top"
@@ -86,7 +89,7 @@ export const Home = () => {
                 />
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4" data-aos="zoom-in-up">
               <div className="card">
                 <img
                   className="card-img-top"

@@ -1,17 +1,9 @@
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-p{
-    font-size: 14px !important;
-  }
+
 .main-banner {
-    margin-top: 7px;
     background-color: rgba(43, 42, 42, 0.308);
-    background-image: url("/assets/images/Trailor\ writing.jpg");
-    height: 490px ;
+    background-image: url("../../../public/images/Trailor writing.jpg");
+    height: 462px ;
     width: auto;
     background-position: top;
     background-repeat: no-repeat;

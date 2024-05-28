@@ -6,9 +6,9 @@
 }
 
 /* Style inputs with type="text", select elements and textareas */
-input[type=e-mail],
-select,
-textarea {
+.honor_code input[type=e-mail],
+.honor_code select,
+.honor_code textarea {
     width: 100%;
     /* Full width */
     padding: 12px;
@@ -28,7 +28,7 @@ textarea {
 }
 
 /* Style the submit button with a specific background color etc */
-input[type=submit] {
+.honor_code input[type=submit] {
     background-color: #4169E1;
     color: white;
     padding: 12px 20px;
@@ -38,7 +38,7 @@ input[type=submit] {
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
+.honor_code input[type=submit]:hover {
     background-color: #afb4c4;
 }
 

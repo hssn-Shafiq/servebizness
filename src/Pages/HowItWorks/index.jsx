@@ -177,7 +177,7 @@ export const HowItWorks = () => {
         </div>
       </div>
       {/* hired */}
-      <div className="container-hired mx-5 rounded-4">
+      <div className="container-hired mx-5 rounded-4 mb-5">
         <div className="row overflow-hidden">
           <div className="col-lg-8 d-flex justify-content-center align-items-start text-light flex-column px-5">
             <h2>Never Hired a Professional Online?</h2>

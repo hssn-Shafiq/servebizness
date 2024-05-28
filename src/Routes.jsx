@@ -20,6 +20,8 @@ import { BusinessServices2 } from "./Pages/Business_Writing_All/BusinessServices
 import { ContentServices1 } from "./Pages/Content_Writing_All/ContentServices1";
 import { ContentServices2 } from "./Pages/Content_Writing_All/ContentServices2";
 import { AcademicServices1 } from "./Pages/Academic_Writing_All/AcademicServices1";
+import { Sample } from "./Pages/Sample";
+import { LandingPage } from "./Pages/LandingPage";
 
 
 const ProjectRoutes = () => {
@@ -27,7 +29,8 @@ const ProjectRoutes = () => {
     <>
       <BrowserRouter fallback={<>Loading...</>}>
           <Routes>
-            <Route path="/" element={<Home />} />
+          <Route path="/" element={<LandingPage />} />
+            <Route path="Home" element={<Home />} />
             <Route path="Business_writing" element={<BusinessWriting />} />
             <Route path="Business_Services" element={<BusinessServices1 />} />
             <Route path="Business_sub_Services" element={<BusinessServices2 />} />
@@ -46,6 +49,7 @@ const ProjectRoutes = () => {
             <Route path="SignIn" element={<SignIn />} />
             <Route path="SignUp" element={<SignUp />} />
             <Route path="*" element={<Error />} />
+            <Route path="Sample" element={<Sample />} />
           </Routes>
       </BrowserRouter>
       <Outlet />

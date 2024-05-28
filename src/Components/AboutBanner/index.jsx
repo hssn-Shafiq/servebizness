@@ -1,5 +1,5 @@
 import React from "react";
-
+import AOSInitializer from "../../AOSInitializer";
 export const AboutBanner = () => {
   return (
     <>
@@ -7,7 +7,7 @@ export const AboutBanner = () => {
       <hr />
       <div className="container-choice p-5 mt-3">
         <div className="row">
-          <div className="col-lg-6">
+          <div className="col-lg-6" data-aos="fade-right">
             <img
               src="/images/services.jpg"
               alt="About Banner"
@@ -15,7 +15,7 @@ export const AboutBanner = () => {
               className="object-fit-cover"
             />
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6" data-aos="fade-up">
             <h4>Choose Our Services Today</h4>
             <p>
               Our company offers a wide range of academic writing services,

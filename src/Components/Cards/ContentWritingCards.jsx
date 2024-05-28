@@ -1,11 +1,11 @@
 
-
+import AOSInitializer from "../../AOSInitializer"
 export const ContentWritingCards = () => {
 
     return (
         <div className="row">
         {/* card 01 */}
-        <div className="col-lg-4 col-md-6 col-sm-12 text-start p-1">
+        <div className="col-lg-4 col-md-6 col-sm-12 text-start p-1" data-aos="fade-up">
           <div className="service-item service-dianuj">
             <div className="service-single">
               <div className="service-img">
@@ -33,7 +33,7 @@ export const ContentWritingCards = () => {
           </div>
         </div>
         {/* card 02 */}
-        <div className="col-lg-4 col-md-6 col-sm-12 text-start p-1">
+        <div className="col-lg-4 col-md-6 col-sm-12 text-start p-1" data-aos="fade-up">
           <div className="service-item service-dianuj">
             <div className="service-single">
               <div className="service-img">
@@ -60,7 +60,7 @@ export const ContentWritingCards = () => {
           </div>
         </div>
         {/* card 03 */}
-        <div className="col-lg-4 col-md-6 col-sm-12 text-start p-1">
+        <div className="col-lg-4 col-md-6 col-sm-12 text-start p-1" data-aos="fade-up">
           <div className="service-item service-dianuj">
             <div className="service-single">
               <div className="service-img">
@@ -88,7 +88,7 @@ export const ContentWritingCards = () => {
           </div>
         </div>
         {/* card 04 */}
-        <div className="col-lg-4 col-md-6 col-sm-12 text-start p-1">
+        <div className="col-lg-4 col-md-6 col-sm-12 text-start p-1" data-aos="fade-up">
           <div className="service-item service-dianuj">
             <div className="service-single">
               <div className="service-img">
@@ -116,7 +116,7 @@ export const ContentWritingCards = () => {
           </div>
         </div>
         {/* card 05 */}
-        <div className="col-lg-4 col-md-6 col-sm-12 text-start p-1">
+        <div className="col-lg-4 col-md-6 col-sm-12 text-start p-1" data-aos="fade-zoom-in">
           <div className="service-item service-dianuj">
             <div className="service-single">
               <div className="service-img">
@@ -143,7 +143,7 @@ export const ContentWritingCards = () => {
           </div>
         </div>
         {/* card 06 */}
-        <div className="col-lg-4 col-md-6 col-sm-12 text-start p-1">
+        <div className="col-lg-4 col-md-6 col-sm-12 text-start p-1" data-aos="fade-zoom-in">
           <div className="service-item service-dianuj">
             <div className="service-single">
               <div className="service-img">
@@ -170,7 +170,7 @@ export const ContentWritingCards = () => {
           </div>
         </div>
         {/* card 07 */}
-        <div className="col-lg-4 col-md-6 col-sm-12 text-start p-1">
+        <div className="col-lg-4 col-md-6 col-sm-12 text-start p-1" data-aos="fade-zoom-in">
           <div className="service-item service-dianuj">
             <div className="service-single">
               <div className="service-img">
@@ -197,7 +197,7 @@ export const ContentWritingCards = () => {
           </div>
         </div>
         {/* card 08 */}
-        <div className="col-lg-4 col-md-6 col-sm-12 text-start p-1">
+        <div className="col-lg-4 col-md-6 col-sm-12 text-start p-1" data-aos="flip-left">
           <div className="service-item service-dianuj">
             <div className="service-single">
               <div className="service-img">
@@ -224,7 +224,7 @@ export const ContentWritingCards = () => {
           </div>
         </div>
         {/* card 09 */}
-        <div className="col-lg-4 col-md-6 col-sm-12 text-start p-1">
+        <div className="col-lg-4 col-md-6 col-sm-12 text-start p-1" data-aos="flip-left">
           <div className="service-item service-dianuj">
             <div className="service-single">
               <div className="service-img">
@@ -251,7 +251,7 @@ export const ContentWritingCards = () => {
           </div>
         </div>
         {/* card 10 */}
-        <div className="col-lg-4 col-md-6 col-sm-12 text-start p-1">
+        <div className="col-lg-4 col-md-6 col-sm-12 text-start p-1" data-aos="flip-left">
           <div className="service-item service-dianuj">
             <div className="service-single">
               <div className="service-img">

@@ -196,7 +196,7 @@ export const HonorCode = () => {
           <p>involved:</p>
         </div>
         {/* Checkboxes and Comment Form */}
-        <div className="container">
+        <div className="container honor_code">
           <div className="row">
             <div className="col-lg-6">
               <div className="row">

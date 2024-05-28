@@ -1,5 +1,5 @@
 .banner-section {
-    background-image: url("../../../public/images/business\ banner.jpg");
+    background-image: url("../../../public/images/business banner.jpg");
     background-color: rgba(0, 0, 0, 0.525);
     background-blend-mode: multiply;
     background-position: center;
@@ -9,29 +9,28 @@
     width: auto;
 }
 
-
-.container-counter{
-    background: #2D6E69;
+.container-counter {
+    background: #2d6e69;
 }
 
-.container-team .team .row .cards .card i{
+.container-team .team .row .cards .card i {
     font-size: 18px;
 }
-.cards .card .card-body .card-title{
+
+.cards .card .card-body .card-title {
     font-size: 17px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    /* display: -webkit-box;
-    -webkit-line-clamp: 1;
-    line-clamp: 1; */
 }
-.cards .card .card-body .card-title:first-child{
+
+.cards .card .card-body .card-title:first-child {
     color: #4b4b4c;
     font-size: 13px;
-    text-transform:capitalize;
+    text-transform: capitalize;
 }
-.cards .card .card-body .card-text{
+
+.cards .card .card-body .card-text {
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
@@ -39,16 +38,32 @@
     line-clamp: 3;
     -webkit-box-orient: vertical;
 }
+
 .container-hired {
-    background: #4169E1;
+    background: #4169e1;
 }
-.hiring-section button{
+
+.hiring-section button {
     border-radius: 20px;
     border: 2px solid black;
 }
-.hiring-section button:hover{
+
+.hiring-section button:hover {
     border-radius: 20px;
     border: 2px solid black;
-    background-color:  rgb(80, 80, 235);
+    background-color: rgb(80, 80, 235);
     color: white;
+}
+
+.card-container {
+    perspective: 1000px;
+}
+
+.card-container .card {
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+}
+
+.card-container:hover .card {
+    transform: rotateY(10deg) scale(1.05);
 }
