@@ -12,6 +12,11 @@
 
 }
 
+@media (max-width:450px){
+.main-banner{
+    height: 100vh !important;
+}
+}
  .button-container{
     /* margin-top: 10rem; */
     display: flex;
