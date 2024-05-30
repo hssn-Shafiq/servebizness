@@ -183,7 +183,7 @@ export const BusinessWritingCards = () => {
               </div>
               <div className="service-content long-heading">
                 <h3>
-                  <Link className="" to="/Business_writing/SubBusinessPage3.html">
+                  <Link className="" to="/Business_sub_Services">
                     Case Studies
                   </Link>
                 </h3>
@@ -191,7 +191,7 @@ export const BusinessWritingCards = () => {
                   Documenting customer success stories or product applications
                   to demonstrate the value and impact of a company’s offerings.
                 </p>
-                <Link to="/Business_writing/SubBusinessPage3.html">Check Now</Link>
+                <Link to="/Business_sub_Services">Check Now</Link>
               </div>
             </div>
           </div>
@@ -210,7 +210,7 @@ export const BusinessWritingCards = () => {
               </div>
               <div className="service-content long-heading">
                 <h3>
-                  <Link className="" to="/Business_writing/SubBusinessPage3.html">
+                  <Link className="" to="/Business_sub_Services">
                     Social Media Content
                   </Link>
                 </h3>
@@ -219,7 +219,7 @@ export const BusinessWritingCards = () => {
                   Facebook to enhance online presence and engage with the
                   audience.
                 </p>
-                <Link to="/Business_writing/SubBusinessPage3.html">Check Now</Link>
+                <Link to="/Business_sub_Services">Check Now</Link>
               </div>
             </div>
           </div>
@@ -238,7 +238,7 @@ export const BusinessWritingCards = () => {
               </div>
               <div className="service-content long-heading">
                 <h3>
-                  <Link className="" to="/Business_writing/SubBusinessPage3.html">
+                  <Link className="" to="/Business_sub_Services">
                     Training Manuals
                   </Link>
                 </h3>
@@ -246,7 +246,7 @@ export const BusinessWritingCards = () => {
                   Developing comprehensive guides and manuals for new employees
                   or for training purposes on various processes.
                 </p>
-                <Link to="/Business_writing/SubBusinessPage3.html">Check Now</Link>
+                <Link to="/Business_sub_Services">Check Now</Link>
               </div>
             </div>
           </div>
@@ -265,7 +265,7 @@ export const BusinessWritingCards = () => {
               </div>
               <div className="service-content long-heading">
                 <h3>
-                  <Link className="" to="/Business_writing/SubBusinessPage3.html">
+                  <Link className="" to="/Business_sub_Services">
                     Executive Speeches
                   </Link>
                 </h3>
@@ -274,7 +274,7 @@ export const BusinessWritingCards = () => {
                   conferences, or internal meetings, tailored to convey key
                   messages clearly and effectively.
                 </p>
-                <Link to="/Business_writing/SubBusinessPage3.html">Check Now</Link>
+                <Link to="/Business_sub_Services">Check Now</Link>
               </div>
             </div>
           </div>
