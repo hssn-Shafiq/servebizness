@@ -26,7 +26,7 @@ export const HonorCode = () => {
           </div>
         </div>
         <div className="container-fluid container-info mt-5 px-5">
-          <div className="text-section text-center px-sm-1">
+          <div className="text-section text-center mt-5px-sm-1">
             <h3>Services Code of Conduct</h3>
             <p>
               Our writing service operates within ethical boundaries and adheres

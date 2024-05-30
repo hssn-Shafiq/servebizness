@@ -23,7 +23,7 @@ export const ContentServices2 = () => {
         {/* Sample Business Articles
          */}
         <div className="info-section overflow-hidden mt-5">
-          <div className="text-section text-center ">
+          <div className="text-section text-center mt-5">
             <h2>Content Writing Services</h2>
           </div>
         </div>
